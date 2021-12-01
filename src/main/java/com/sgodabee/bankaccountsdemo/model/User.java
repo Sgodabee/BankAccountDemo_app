@@ -1,4 +1,4 @@
-package com.sgodabee.bankaccountsdemo.savings.model;
+package com.sgodabee.bankaccountsdemo.model;
 
 
 

@@ -1,4 +1,4 @@
-package com.sgodabee.bankaccountsdemo.savings.generator;
+package com.sgodabee.bankaccountsdemo.generator;
 
 import java.util.Random;
 

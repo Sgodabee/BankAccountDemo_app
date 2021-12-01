@@ -1,7 +1,7 @@
-package com.sgodabee.bankaccountsdemo.savings.repository;
+package com.sgodabee.bankaccountsdemo.repository;
 
 
-import com.sgodabee.bankaccountsdemo.savings.model.TransactionHistory;
+import com.sgodabee.bankaccountsdemo.model.TransactionHistory;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

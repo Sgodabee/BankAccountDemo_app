@@ -1,9 +1,9 @@
-package com.sgodabee.bankaccountsdemo.savings.controller;
+package com.sgodabee.bankaccountsdemo.controller;
 
 
-import com.sgodabee.bankaccountsdemo.savings.generator.GenAccountNumber;
-import com.sgodabee.bankaccountsdemo.savings.model.User;
-import com.sgodabee.bankaccountsdemo.savings.repository.AccountRepository;
+import com.sgodabee.bankaccountsdemo.generator.GenAccountNumber;
+import com.sgodabee.bankaccountsdemo.model.User;
+import com.sgodabee.bankaccountsdemo.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;

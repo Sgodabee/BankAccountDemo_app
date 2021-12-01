@@ -43,7 +43,7 @@ public class AccountController {
         double dep_amount = 0;
 
         // SET ACCOUNT BALANCE
-        if (dep_amount >= 1000.00) {
+        if (dep_amount >= 1000.00 || accountType.equals("Savings")) {
 
             // TODO: CREATE ACCOUNT:
             accountRepository.createBankAccount(user.getUser_id(), bankAccountNumber, accountName, accountType);

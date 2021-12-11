@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
-@ComponentScan(basePackages = {"com.sgodabee.bankaccountdemo_v1"})
+@ComponentScan(basePackages = {"com.sgodabee.bankaccountsdemo"})
 
 public class AppConfig extends WebMvcConfigurationSupport{
 

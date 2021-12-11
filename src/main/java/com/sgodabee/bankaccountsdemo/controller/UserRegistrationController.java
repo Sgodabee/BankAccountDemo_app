@@ -20,7 +20,7 @@ public class UserRegistrationController {
 
     @GetMapping("/register")
     public ModelAndView getRegister(){
-        ModelAndView getRegisterPage = new ModelAndView("register");
+        ModelAndView getRegisterPage = new ModelAndView("register.jsp");
         System.out.println("In Register Page Controller");
         getRegisterPage.addObject("PageTitle", "Register");
         return getRegisterPage;
@@ -35,7 +35,7 @@ public class UserRegistrationController {
                                  @RequestParam("password") String password,
                                  @RequestParam("confirm_password") String confirm_password) throws Exception {
 
-        ModelAndView registrationPage = new ModelAndView("register");
+        ModelAndView registrationPage = new ModelAndView("register.jsp");
 
         // Check For Errors:
         if(result.hasErrors() && confirm_password.isEmpty()){

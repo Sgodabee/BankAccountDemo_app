@@ -17,7 +17,7 @@ public class MailConfig {
         //set Mail Credentials
         emailConfig.setHost("localhost");
         emailConfig.setPort(25);
-        emailConfig.setUsername("no-reply@namecompany.com");
+        emailConfig.setUsername("no-reply@kryptoncapital.co.za");
         emailConfig.setPassword("password123");
 
 
